@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+}
+body {
+    width: 100%;
+    list-style: none;
+    background-color: #2b2b2b;
+}
+p {
+    color: #C10F0F;
+    font-size: 30px;
+    font-family: racingsans;
+}
+.header {
+    background-color: #151515;
+}
+
+.menu{
+    color: #FFFFFF;
+    font-size: 25px;
+    overflow: hidden;
+}
+.rightnav {
+    width: 70%;
+    float: right;
+}
+.rightnav ul {
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.rightnav li {
+    color: #FFFFFF;
+    font-size: 25px;
+    display: inline;
+    padding-left: 20px;
+}
+.home,.movie,.series,.premium,.watchlists{
+    font-family: ptsansnarrow;
+    font-weight: 700;
+}
+.sitename{
+    margin-left: 50px;
+    margin-top: 25px;
+    color: #C10F0F;
+    font-size: 30px;
+    display: inline-block;
+    font-family: racingsans;
+}
+.home {
+    color: #C10F0F !important;
+}
+.premium{
+    color: #FFB900 !important;
+}
+.premiumicon {
+    width: 30px;
+    vertical-align: middle;
+    padding-bottom: 7px;
+}
+.login{
+    background-color: #C10F0F;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    color: #FFFFFF;
+    font-family: plusjarkata;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    overflow: hidden;
+    margin-right: 25px;
+}
+/* Start of Main Image */
+.mainimage {
+    position: relative; 
+    overflow: hidden; 
+}
+.firstimg {
+    width: 100%;
+}
+.imgtext {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.rating {
+    position: relative;
+    left: 6%;
+}
+.imgtext li {
+    font-family: plusjarkata;
+    color: #FFFFFF;
+    line-height: 1.5em;
+    list-style: none;
+    font-weight: 700;
+}
+.moviename {
+    font-size: 30px;
+}
+.watchbtn {
+    position: absolute;
+    bottom: 0;
+    right: 4%;
+    color: #FFFFFF;
+    background-color: #C10F0F;
+    width: 35%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-family: plusjarkata;
+    font-weight: 700;
+    overflow: hidden;
+}
+.eyeicon {
+    width: 30px;
+    vertical-align: bottom;
+}
+.firstimgstar {
+    vertical-align: top;
+}
+.rating {
+    font-size: 30px;
+}
+/* End of main image */
+/* Start of Feature Movies */
+.featuretitle p{
+    margin-top: 3%;
+    margin-left: 3%;
+    color: #C10F0F;
+    font-size: 30px;
+    font-family: racingsans;
+    position: relative;
+}
+.grid {
+    width: 100%;
+    margin-top: -40px;
+    border-spacing: 50px;
+    padding: 25px;
+    position: relative;
+}
+.gridimage {
+    width: 100%;    
+}
+.grid td {
+    background-color: #151515;
+    border-radius: 20px;
+    padding: 0px;
+    overflow: hidden;
+}
+.grid li {
+    list-style: none;
+    color: #FFFFFF;
+    line-height: 1.5em;
+}
+.headtext,.middletext{
+    text-align: left;
+    font-size: 17px;
+    font-family: plusjarkata;
+    letter-spacing: 1px;
+}
+.headtext {
+    padding-left: 3%
+}
+.middletext {
+    padding-top: 5px;
+    padding-left: 7%;
+}
+.movieinfo li {
+    line-height: 1.5em;
+}
+.movieinfo {
+    line-height: 2em;
+    padding: 2px;
+    position: relative;
+}
+.movieinfo ul {
+    text-align: center;
+    padding: 0;
+}
+.watchlistbtn {
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px #FFFFFF solid;
+    border-radius: 5px;
+    width: 70%;
+    color: #FFB900;
+    font-family: plusjarkata;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 2px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.grid span {
+    font-size: 30px ;
+}
+.seemore {
+    color: #FFB900;
+    float: right;
+    font-family: plusjarkata;
+    margin-top: -50px;
+    margin-right: 80px;
+}
+.starimage {
+    width: 22px;
+    vertical-align: bottom;
+    margin-bottom: 5px;
+}
+.movieicon {
+    position: absolute;
+    margin-top: 2px;
+    top: 0;
+    right: 5%;
+}
+.movieicon img {
+    width: 25px;
+}
+/* End of Feature Movies */
+/* Start of Quotes Of the Day */
+.quoteoftheday {
+    position: relative;
+}
+.quoteoftheday p {
+    margin-bottom: 3%;
+    text-align: center;
+}
+.quoteoftheday img {
+    width: 100%; 
+    filter: contrast(240%);
+}
+.quotetext {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+.quotetext1 {
+    color: #FFFFFF;
+    font-family: racingsans;
+    line-height: 1.2em;
+    font-size: 30px;
+    max-width: 400px;
+}
+.quotetext2 {
+    color: #FFB900;
+    font-size: 22px;
+    font-family: racingsans;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+/* End of Quotes Of the Day */
+/* Start of Footer */
+.footer {
+    background-color: #151515;
+    margin-top: 2%;
+    position: relative;
+}
+.footerhead {
+    color: #FFFFFF;
+}
+.footergrid {
+    width: 100%;
+    border-spacing: 15px;
+}
+.footergrid li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 22px;   
+}
+.footerleft{
+    text-align: center;
+    
+}
+.alignleft {
+    padding-left: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.footerleft li{
+    line-height: 1.7em;
+    font-family: ptsansnarrow;
+    padding-right: 25px;
+    font-weight: 700;
+}
+
+.movieaddict {
+    color: #C10F0F !important;
+    font-size: 30px !important;
+    font-family: racingsans !important;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 25%;
+}
+.addicttext {
+    opacity: 0.8; 
+    text-align: left;
+    margin-left: 25%;
+    padding-bottom: 50px;
+    width: 50%;
+    font-family: ptsansnarrow;
+}
+.placeholder {
+    visibility: hidden;
+}
+.footerright li{
+    padding-bottom: 25px;
+    text-align: center;
+}
+.footerright img {
+    padding-right: 15px;
+}
+.socialtext {
+    font-family: ptsansnarrow;
+    font-size: 25px !important;
+    margin-right: 0.8em;
+    font-weight: 700;
+    margin-top: -20px;
+}
+.footerhome {
+    color: #C10F0F !important;
+}
+.footericon img{ 
+    width: 35px;
+}
+/* End of Footer */
+/* Start of Font */
+@font-face {
+    font-family: racingsans;
+    src: url(./fonts/RacingSansOne-Regular.ttf);
+}
+@font-face {
+    font-family: plusjarkata;
+    src: url(./fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: ptsansnarrow;
+    src: url(./fonts/PTSansNarrow-Regular.ttf);
+}
+/* End of Font */
